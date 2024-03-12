@@ -83,7 +83,7 @@ public class main extends javax.swing.JFrame {
 
         txtNumero.setEditable(false);
         txtNumero.setBackground(new java.awt.Color(204, 255, 255));
-        txtNumero.setForeground(new java.awt.Color(0, 255, 255));
+        txtNumero.setForeground(new java.awt.Color(0, 0, 0));
         txtNumero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtNumeroActionPerformed(evt);
@@ -92,7 +92,7 @@ public class main extends javax.swing.JFrame {
 
         txtPeso.setEditable(false);
         txtPeso.setBackground(new java.awt.Color(204, 255, 255));
-        txtPeso.setForeground(new java.awt.Color(204, 255, 255));
+        txtPeso.setForeground(new java.awt.Color(0, 0, 0));
         txtPeso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPesoActionPerformed(evt);
